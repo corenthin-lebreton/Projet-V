@@ -13,7 +13,7 @@ public class enemyAI : MonoBehaviour
     [SerializeField] private float  attackDelay = 3f;
 
     private float time;
-    // Start is called before the first frame update
+    // Start is called before the first frame updated
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
